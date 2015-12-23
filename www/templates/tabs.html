@@ -1,0 +1,21 @@
+<ion-view>
+    <ion-nav-buttons side="left">
+      <button class="button button-icon button-positive ion-navicon" ng-click="abrirMenu()"></button> 
+    </ion-nav-buttons> 
+    
+    <ion-tabs class="tabs-icon-top tabs-stable">
+
+      <ion-tab title="Home" icon="ion-home" href="#/tab/home">
+        <ion-nav-view name="tab-home"></ion-nav-view>
+      </ion-tab>
+
+      <ion-tab title="Sobre" icon="ion-ios-person" href="#/tab/sobre">
+        <ion-nav-view name="tab-sobre"></ion-nav-view>
+      </ion-tab>
+
+      <ion-tab title="Configurações" icon="ion-gear-a" href="#/tab/configuracoes">
+        <ion-nav-view name="tab-configuracoes"></ion-nav-view>
+      </ion-tab>
+
+    </ion-tabs>
+  </ion-view>

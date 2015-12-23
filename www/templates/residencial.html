@@ -1,0 +1,68 @@
+<ion-view>
+  <ion-nav-buttons side="left">
+    <button class="button button-icon button-positive ion-navicon" ng-click="abrirMenu()"></button>
+  </ion-nav-buttons>        
+  <ion-content class="center" padding="true">
+  	<h3 class="titulo-seg">Itaú Seguros S.A.<br> CNPJ: 00-000-000/0000-00</h3>
+  	<form>
+  		<h3 class="titulo-contratacao">Dados para Contratação</h3>
+  		<div class="list">
+    		<label class="item item-input item-stacked-label">
+      		<span class="input-label">Nome</span>
+      		<input type="text" placeholder="Nome">
+    		</label>
+    		<label class="item item-input item-stacked-label">
+       		<span class="input-label">Sobrenome</span>
+      		<input type="text" placeholder="Sobrenome">
+      	</label>
+      	<label class="item item-input item-stacked-label">
+      		<span class="input-label">E-mail</span>
+      		<input type="text" placeholder="exemplo@exemplo.com">
+    		</label>
+    		<label class="item item-input item-stacked-label">
+      		<span class="input-label">Telefone/Celular</span>
+      		<input type="text" placeholder="0000-0000 ou 90000-0000">
+    		</label>
+     		<label class="item item-input item-stacked-label">
+       		<span class="input-label">CPF</span>
+       		<input type="text" placeholder="000.000.000-00">
+     		</label>
+     		<label class="item item-input item-stacked-label">
+       		<span class="input-label">RG</span>
+       		<input type="text" placeholder="00.000.000-0">
+     		</label>
+     		<label class="item item-input item-select">
+     			 <div class="input-label">
+     			  Tipo de Residência
+     			 </div>
+     			<select>
+     			  <option selected>Apartamento</option>
+     			  <option>Casa</option>
+     		  </select>
+     		</label>
+        <label class="item item-input item-stacked-label">
+          <span class="input-label">Valor do Imóvel (R$)</span>
+          <input type="text" placeholder="R$250.000,00">
+        </label>
+        <li class="item item-toggle">
+          Imóvel Quitado
+          <label class="toggle">
+            <input type="checkbox">
+            <div class="track">
+              <div class="handle"></div>
+            </div>
+          </label>
+        </li>
+     		<label class="item item-input item-stacked-label">
+       		<span class="input-label">Endereço c/ nº</span>
+       		<input type="text" placeholder="Travessa, Rua, Avenida nº000">
+     		</label>
+     		<label class="item item-input item-stacked-label">
+      		<span class="input-label">Cidade/Estado</span>
+       		<input type="text" placeholder="São Bernardo do Campo/São Paulo">
+     		</label>
+     		<button class="botoes button button-block button-dark" ng-click="contratar()">Contratar</button>
+   		</div>
+  	</form>
+  </ion-content>
+</ion-view>

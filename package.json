@@ -1,0 +1,11 @@
+{
+  "name": "ap3",
+  "version": "1.1.1",
+  "description": "Ap3: An Ionic project",
+  "main": "server.js",
+  "author": "Miguel Navarro",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}

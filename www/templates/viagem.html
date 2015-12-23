@@ -1,0 +1,65 @@
+<ion-view>
+  <ion-nav-buttons side="left">
+    <button class="button button-icon button-positive ion-navicon" ng-click="abrirMenu()"></button>
+  </ion-nav-buttons>        
+  <ion-content class="center" padding="true">
+    <h3 class="titulo-seg">Itaú Seguros S.A.<br> CNPJ: 00-000-000/0000-00</h3>
+    <form>
+    	<h3 class="titulo-contratacao">Dados para Contratação</h3>
+    	<div class="list">
+        <label class="item item-input item-stacked-label">
+          <span class="input-label">Nome</span>
+          <input type="text" placeholder="Nome">
+        </label>
+        <label class="item item-input item-stacked-label">
+          <span class="input-label">Sobrenome</span>
+          <input type="text" placeholder="Sobrenome">
+        </label>
+        <label class="item item-input item-stacked-label">
+          <span class="input-label">E-mail</span>
+          <input type="text" placeholder="exemplo@exemplo.com">
+        </label>
+        <label class="item item-input item-stacked-label">
+          <span class="input-label">Telefone/Celular</span>
+          <input type="text" placeholder="0000-0000 ou 90000-0000">
+        </label>
+        <label class="item item-input item-stacked-label">
+          <span class="input-label">CPF</span>
+          <input type="text" placeholder="000.000.000-00">
+        </label>
+        <label class="item item-input item-stacked-label">
+          <span class="input-label">RG</span>
+          <input type="text" placeholder="00.000.000-0">
+        </label>
+        <label class="item item-input item-stacked-label">
+          <span class="input-label">Origem/Destino</span>
+          <input type="text" placeholder="Brasil/Alemanha">
+        </label>
+        <label class="item item-input item-select">
+          <div class="input-label">
+            Quantidade de Passageiros
+          </div>
+          <select>
+            <option selected>Entre 1 e 5</option>
+            <option>Entre 5 e 10</option>
+            <option>Entre 10 e 20</option>
+            <option>Acima de 20</option>
+          </select>
+        </label>
+        <label class="item item-input item-stacked-label">
+          <span class="input-label">Data da Ida</span>
+          <input type="text" placeholder="21/12/2015">
+        </label>
+        <label class="item item-input item-stacked-label">
+          <span class="input-label">Data da Volta</span>
+          <input type="text" placeholder="01/01/2016">
+        </label>
+        <label class="item item-input item-stacked-label">
+          <span class="input-label">Motivo da Viagem</span>
+          <input type="text" placeholder="Férias, Trabalho etc..">
+        </label>
+    		<button class="botoes button button-block button-dark" ng-click="contratar()">Contratar</button>
+    	</div>
+    </form>
+  </ion-content>
+</ion-view>

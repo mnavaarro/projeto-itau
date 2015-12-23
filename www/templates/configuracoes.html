@@ -1,0 +1,38 @@
+<ion-view>
+  <ion-nav-buttons side="left">
+    <button class="button button-icon button-positive ion-navicon" ng-click="abrirMenu()"></button>
+  </ion-nav-buttons>        
+  <ion-content class="center" padding="true">
+    <h1 class="titulo-home">Configurações do Aplicativo</h1>
+    <ul class="list">
+  			<li class="item item-toggle">
+     			Notificações
+     			<label class="toggle">
+       			<input type="checkbox">
+       			<div class="track">
+         			<div class="handle"></div>
+       			</div>
+     			</label>
+  			</li>
+  			<li class="item item-toggle">
+     			Serviço de Localização
+     			<label class="toggle">
+       			<input type="checkbox">
+       			<div class="track">
+         			<div class="handle"></div>
+       			</div>
+     			</label>
+  			</li>
+  			<li class="item item-toggle">
+     			Atualização Automática
+     			<label class="toggle">
+       			<input type="checkbox">
+       			<div class="track">
+         			<div class="handle"></div>
+       			</div>
+     			</label>
+  			</li>
+		</ul>
+    <button class="botoes button button-block button-dark"ng-click="logout()">Sair</button>
+  </ion-content>
+</ion-view>

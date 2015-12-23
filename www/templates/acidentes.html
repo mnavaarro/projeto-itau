@@ -1,0 +1,65 @@
+<ion-view>
+  <ion-nav-buttons side="left">
+    <button class="button button-icon button-positive ion-navicon" ng-click="abrirMenu()"></button>
+  </ion-nav-buttons>        
+  <ion-content class="center" padding="true">
+    <h3 class="titulo-seg">Itaú Seguros S.A.<br> CNPJ: 00-000-000/0000-00</h3>
+    <form>
+    	<h3 class="titulo-contratacao">Dados para Contratação</h3>
+    	<div class="list">
+    		<label class="item item-input item-stacked-label">
+      			<span class="input-label">Nome</span>
+      			<input type="text" placeholder="Nome">
+    		</label>
+    		<label class="item item-input item-stacked-label">
+       			<span class="input-label">Sobrenome</span>
+      			<input type="text" placeholder="Sobrenome">
+      		</label>
+      		<label class="item item-input item-stacked-label">
+      			<span class="input-label">E-mail</span>
+      			<input type="text" placeholder="exemplo@exemplo.com">
+    		</label>
+    		<label class="item item-input item-stacked-label">
+      			<span class="input-label">Telefone/Celular</span>
+      			<input type="text" placeholder="0000-0000 ou 90000-0000">
+    		</label>
+     		<label class="item item-input item-stacked-label">
+       			<span class="input-label">CPF</span>
+       			<input type="text" placeholder="000.000.000-00">
+     		</label>
+     		<label class="item item-input item-stacked-label">
+       			<span class="input-label">RG</span>
+       			<input type="text" placeholder="00.000.000-0">
+     		</label>
+        <li class="item item-toggle" ng-click="adcoletiva = !adcoletiva">
+          Adesão Coletiva
+          <label class="toggle">
+            <input type="checkbox">
+            <div class="track">
+              <div class="handle"></div>
+            </div>
+          </label>
+        </li>
+        <div ng-show="adcoletiva">
+          <label class="item item-input item-stacked-label">
+            <span class="input-label">Beneficiário 1</span>
+            <input type="text" placeholder="Nome Completo">
+          </label>
+          <label class="item item-input item-stacked-label">
+            <span class="input-label">Beneficiário 2</span>
+            <input type="text" placeholder="Nome Completo">
+          </label>
+          <label class="item item-input item-stacked-label">
+            <span class="input-label">Beneficiário 3</span>
+            <input type="text" placeholder="Nome Completo">
+          </label>
+          <label class="item item-input item-stacked-label">
+            <span class="input-label">Beneficiário 4</span>
+            <input type="text" placeholder="Nome Completo">
+          </label>
+        </div>
+    		<button class="botoes button button-block button-dark" ng-click="contratar()">Contratar</button>
+    	</div>
+    </form>
+  </ion-content>
+</ion-view>

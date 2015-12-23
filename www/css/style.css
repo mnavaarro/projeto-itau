@@ -1,0 +1,113 @@
+/* Empty. Add your own CSS if you like */
+
+.nav-title {
+	background: url('../img/itau-bg.jpg') no-repeat center;
+	background-size: cover; /*Css padrão*/
+  	-webkit-background-size: cover; /*Css safari e chrome*/
+  	-moz-background-size: cover; /*Css firefox*/
+  	-ms-background-size: cover; /*Css IE*/
+  	-o-background-size: cover; /*Css Opera*/
+  	font-family: Arial Black;
+  	color: #ffd700;
+}
+
+.bar-title {
+	background: url('../img/itau-bg.jpg') no-repeat center;
+	background-size: cover; /*Css padrão*/
+  	-webkit-background-size: cover; /*Css safari e chrome*/
+  	-moz-background-size: cover; /*Css firefox*/
+  	-ms-background-size: cover; /*Css IE*/
+  	-o-background-size: cover; /*Css Opera*/
+  	font-family: Arial Black;
+  	color: #ffd700;
+}
+
+.titulo-seg {
+	color: #FFFFFF;
+	border: #000 1px solid;
+  border-radius: 30px;
+	background-color: #4682B4;
+	box-shadow: #000 2px 2px 1px;
+	text-align: center;
+	font-family: Calibri;
+	font-size: 17px;
+}
+
+.login-title {
+    text-align: center;
+    font-family: Calibri;
+}
+
+.img-seguros {
+    padding: 0;
+    top: auto;
+    bottom: auto;
+}
+
+.titulo-home {
+    text-align: center;
+    font-family: Calibri;
+    font-weight: bold;
+    color: #DAA520;
+    font-size: 20px;
+}
+
+.div-sobre {
+  position:absolute; 
+  bottom:0%; 
+  left:0%; 
+  right:0%; 
+  text-align:center;
+}
+
+.botoes {
+  border-radius: 10px;
+  border: #000 0px solid;
+}
+
+.titulo-menu {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.titulo-contratacao {
+  font-family: Calibri;
+  font-weight: bold;
+
+}
+
+.img-seguros-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-sobre {
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.topico-sobre {
+  color: #DAA520;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: Calibri;
+  text-decoration: underline;
+  padding-left: 5px;
+}
+
+.texto-sobre {
+  text-align: justify;
+  padding: 10px;
+}
+
+.links-sobre {
+  color: #DAA520;
+}
+
+.sobre-slide {
+  background-color: #D3D3D3;
+  border-radius: 10px;
+
+}
