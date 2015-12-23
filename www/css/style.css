@@ -35,7 +35,7 @@
 
 .login-title {
     text-align: center;
-    font-family: Calibri;
+    font-family: Arial;
 }
 
 .img-seguros {
@@ -46,10 +46,10 @@
 
 .titulo-home {
     text-align: center;
-    font-family: Calibri;
+    font-family: Arial;
     font-weight: bold;
     color: #DAA520;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .div-sobre {
@@ -71,7 +71,7 @@
 }
 
 .titulo-contratacao {
-  font-family: Calibri;
+  font-family: Arial;
   font-weight: bold;
 
 }
@@ -90,16 +90,16 @@
 
 .topico-sobre {
   color: #DAA520;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: bold;
-  font-family: Calibri;
-  text-decoration: underline;
-  padding-left: 5px;
+  font-family: Arial;
+  padding-left: 10px;
 }
 
 .texto-sobre {
   text-align: justify;
   padding: 10px;
+  font-size: 12px;
 }
 
 .links-sobre {
@@ -109,5 +109,9 @@
 .sobre-slide {
   background-color: #D3D3D3;
   border-radius: 10px;
+}
 
+.bar-title2 {
+  font-family: Arial Black;
+  font-weight: bold;
 }
