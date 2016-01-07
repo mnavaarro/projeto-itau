@@ -29,13 +29,8 @@
 	background-color: #4682B4;
 	box-shadow: #000 2px 2px 1px;
 	text-align: center;
-	font-family: Calibri;
+	font-family: Arial;
 	font-size: 17px;
-}
-
-.login-title {
-    text-align: center;
-    font-family: Arial;
 }
 
 .img-seguros {
@@ -65,15 +60,9 @@
   border: #000 0px solid;
 }
 
-.titulo-menu {
-  font-size: 17px;
-  font-weight: bold;
-}
-
 .titulo-contratacao {
   font-family: Arial;
   font-weight: bold;
-
 }
 
 .img-seguros-logo {
@@ -114,4 +103,31 @@
 .bar-title2 {
   font-family: Arial Black;
   font-weight: bold;
+}
+
+.img-login {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 115px;
+}
+
+.bg-login {
+  background: url('../img/white-bg.jpg') no-repeat center;
+  background-size: cover; /*Css padrão*/
+}
+
+.item-menu {
+  background-color: #404040;
+  color: #FFFFFF;
+}
+
+.label-contratacao {
+  font-weight: bold;
+}
+
+.login-span {
+  border: #000 0px solid;
+  border-radius: 10px;
+  border-style:dashed;
 }

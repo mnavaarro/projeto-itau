@@ -37,33 +37,53 @@
         <ion-content has-header="true">
           <ion-list>
             <div ng-controller="TabsCtrl">
-              <ion-item menu-close href="#/tab" class="titulo-menu">Ínicio</ion-item>
+              <ion-item menu-close href="#/tab">Ínicio</ion-item>
+            </div>
+              <ion-item menu-close class="item-menu">
+              Venda de Seguros
+              </ion-item>
             </div>
             <div ng-controller="ViagemCtrl">
-              <ion-item menu-close href="#/viagem" ng-click="abrirHome()">
-                <i class="ion-plane"></i>   Viagem
+              <ion-item menu-close href="#/viagem">
+                   Viagem
               </ion-item>
             </div>
             <div ng-controller="AutomovelCtrl">
               <ion-item menu-close href="#/automovel">
-                <i class="ion-model-s"></i>   Automóvel
+                   Automóvel
               </ion-item>
             </div>
             <div ng-controller="ResidencialCtrl">
               <ion-item menu-close href="#/residencial">
-                <i class="ion-ios-home"></i>   Residêncial
+                   Residêncial
               </ion-item>
             </div>
             <div ng-controller="AcidentesCtrl">
               <ion-item menu-close href="#/acidentes">
-                <i class="ion-ios-people"></i>   Acidentes Pessoais
+                   Acidentes Pessoais
               </ion-item>
             </div>
             <div ng-controller="EmpresarialCtrl">
               <ion-item menu-close href="#/empresarial">
-                <i class="ion-briefcase"></i>   Empresarial
+                   Empresarial
               </ion-item>
             </div>
+            <div>
+              <ion-item menu-close class="item-menu">
+                   Portal do Corretor
+              </ion-item>
+            </div>
+            <div>
+              <ion-item menu-close>
+              Chat
+              </ion-item>
+            </div>
+            <div>
+              <ion-item menu-close>
+                   Consulta de Vendas
+              </ion-item>
+            </div>
+            <div>
           </ion-list>
         </ion-content>
       </ion-side-menu>      
